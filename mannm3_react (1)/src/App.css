@@ -1,0 +1,85 @@
+body {
+  background-color:#334756;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#homepage, #createPage, #edit  {
+  border: 2px solid #082032;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: white;
+}
+
+#create {
+  background-color: #f2f2f2;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+#create:hover {
+  background-color: #F0A500; 
+  color: white;
+  font-size: 18px;
+}
+
+h1, h2 {
+  color: #F0A500;
+}
+
+table {
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid #082032;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #334756;
+  color: white;
+}
+
+link {
+  color: #000000;
+}
+
+link:hover {color: #F0A500;}
+
+input {
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+}
+
