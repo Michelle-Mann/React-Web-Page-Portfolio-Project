@@ -1,0 +1,130 @@
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jumping Jacks",
+    "reps": 45,
+    "weight": 5,
+    "unit" : "lbs",
+    "date" : "12-03-21"
+
+}
+
+###
+GET http://localhost:3000/exercises/ HTTP/1.1
+
+###
+GET http://localhost:3000/exercises/61aae3a1a425fc1db7f4ba4a HTTP/1.1
+
+###
+
+PUT http://localhost:3000/exercises/61ababd0fc5447a2054b275e HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Jumping Jacks",
+    "reps": 45,
+    "weight": 10,
+    "unit" : "lbs",
+    "date" : "12-03-21"
+
+}
+
+###
+DELETE http://localhost:3000/exercises/61ababd0fc5447a2054b275e HTTP/1.1
+
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Crunches",
+    "reps": 20,
+    "weight": 0,
+    "unit" : "bodyweight",
+    "date" : "12-04-21"
+
+}
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Plank",
+    "reps": 3,
+    "weight": 30,
+    "unit" : "seconds",
+    "date" : "12-04-21"
+
+}
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Mountain Climbers",
+    "reps": 3,
+    "weight": 60,
+    "unit" : "seconds",
+    "date" : "12-04-21"
+
+}
+
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Leg Lifts",
+    "reps": 3,
+    "weight": 20,
+    "unit" : "seconds",
+    "date" : "12-04-21"
+
+}
+
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Push ups",
+    "reps": 10,
+    "weight": 0,
+    "unit" : "bodyweight",
+    "date" : "12-04-21"
+
+}
+
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Bicep Curls",
+    "reps": 8,
+    "weight": 20,
+    "unit" : "lbs",
+    "date" : "12-04-21"
+
+}
+
+###
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Overhead Presses",
+    "reps": 10,
+    "weight": 10,
+    "unit" : "lbss",
+    "date" : "12-04-21"
+
+}
